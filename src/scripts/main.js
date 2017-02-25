@@ -2,7 +2,7 @@
 var Snap = require('snapsvg-cjs');
 var crocodileUrl = require('../assets/crocodile.svg');
 
-//require('../styles/main.css');
+require('../styles/main.css');
 
 Snap.load(crocodileUrl, function (croc) {
   document.querySelector('#crocodile').appendChild(croc.node);
